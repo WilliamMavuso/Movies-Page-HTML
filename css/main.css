@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container{
+    width: 100%;
+    height: 550px;
+    background-color: lightgray;
+}
+
+.navigation-container{
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+}
+
+.navigation-container li{
+    color: white;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 50px;
+   list-style-type: none;
+}
+
+.navigation-items{
+    width: 500px;
+    height: 70px;
+    float: left;
+}
+
+.user-icon{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    background-image: url(../imgs/if_user_925901.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-con{
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+    background-image: url(../imgs/Visible%20Logo%20w.svg);
+    background-position: center;
+    background-size:cover;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  background-color: lightgrey;
+}
+
+.main-content-container{
+    width: 100%;
+    height: 800px;
+    background-color: lightgray;
+}
+
+.categories{
+    width: 25%;
+    height: 800px;
+    background-color: darkgrey;
+    float: left;
+}
+
+.other-movies{
+    width: 25%;
+    height: 800px;
+    background-color: darkgrey;
+    float: right;
+}
+
+.movie-trailer{
+    width: 55%;
+    height: 800px;
+    background-color: gray;
+    margin: auto;
+}
+
+.footer-container{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+}
